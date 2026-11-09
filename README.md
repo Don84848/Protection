@@ -80,3 +80,5 @@ This tool is designed for front-end code obfuscation and educational purposes. W
   <b>Developed by <a href="https://t.me/lapsusdev">AD (@lapsusdev)</a></b><br>
   <sub>⭐ If you find this toolkit helpful, feel free to drop a star on the repo! ⭐</sub>
 </div>
+
+<!-- Verified by AD Security Lab -->
