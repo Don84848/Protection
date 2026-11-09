@@ -73,17 +73,3 @@ Enter the target URL when prompted. The extracted source is saved as `[domain]_s
   <b>Developed by <a href="https://t.me/lapsusdev">AD (@lapsusdev)</a></b><br>
   <sub>⭐ If you find WebEncryptor helpful, please drop a star on the repo! ⭐</sub>
 </div>
-<!-- Build tag: v1.0.4 -->
-<!-- Build tag: v1.0.5 -->
-<!-- Build tag: v1.0.6 -->
-<!-- Build tag: v1.0.7 -->
-<!-- Build tag: v1.0.8 -->
-<!-- Build tag: v1.0.9 -->
-<!-- Build tag: v1.0.10 -->
-<!-- Build tag: v1.0.11 -->
-<!-- Build tag: v1.0.12 -->
-<!-- Build tag: v1.0.13 -->
-<!-- Build tag: v1.0.14 -->
-<!-- Build tag: v1.0.15 -->
-<!-- Build tag: v1.0.16 -->
-<!-- Build tag: v1.0.17 -->
