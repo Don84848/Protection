@@ -81,3 +81,4 @@ Enter the target URL when prompted. The extracted source is saved as `[domain]_s
 <!-- Build tag: v1.0.9 -->
 <!-- Build tag: v1.0.10 -->
 <!-- Build tag: v1.0.11 -->
+<!-- Build tag: v1.0.12 -->
