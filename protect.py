@@ -65,9 +65,9 @@ def get_html_files():
 
 def display_banner():
     try:
-        banner_text = pyfiglet.figlet_format("Protection", font="small")
+        banner_text = pyfiglet.figlet_format("WebEncryptor", font="small")
     except Exception:
-        banner_text = "=== Protection ==="
+        banner_text = "=== WebEncryptor ==="
         
     colored_banner = Text(banner_text, style="bold cyan")
     

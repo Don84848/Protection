@@ -1,4 +1,4 @@
-# 🛡️ Protection & Extraction Toolkit
+# 🔐 WebEncryptor: Client-Side Obfuscation & Source Extraction Toolkit
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Don84848-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Don84848)
 
 <p align="center">
-  A lightweight, high-performance CLI security suite for <b>Termux</b>, <b>Linux</b>, and <b>Windows</b>.
+  A professional, lightweight CLI suite for client-side HTML, CSS, & JavaScript code obfuscation and URL source code extraction.
 </p>
 
 </div>
@@ -17,38 +17,37 @@
 
 ## ⚡ Overview
 
-**Protection Toolkit** contains two powerful security & scraping tools:
+**WebEncryptor** provides two essential developer & security utilities:
 
-1. **📥 Source Extractor (`extract.py`):** Download and extract the full front-end source code (HTML, CSS, JS) of any website using its URL.
-2. **🔐 Code Protector (`protect.py`):** Obfuscate and protect your client-side code using advanced Deflate compression and Base64 encoding to prevent unauthorized code inspection via *"View Page Source"*.
+1. **🔐 Web Encryptor (`protect.py`):** Obfuscates and encrypts client-side frontend code (HTML, CSS, JS) using advanced compression and Base64 wrapping, preventing unauthorized code inspection via *"View Page Source"*.
+2. **📥 Source Extractor (`extract.py`):** Downloads and extracts the full frontend source code of any web page directly into a clean HTML file.
 
 ---
 
 ## ✨ Features
 
-- 🌐 **Web Scraper (Extract):** Instantly downloads the complete source code of any webpage directly into your terminal.
-- 🔐 **Fast & Secure Obfuscation (Protect):** Encodes client-side code with zlib/deflate compression and Base64 wrapping.
-- 📱 **Mobile & Termux Friendly:** Optimized layout and typography specifically tuned for narrow mobile terminal screens.
-- ⚡ **Auto-Decoding in Browser:** The browser dynamically decompresses and renders the page in real-time with zero impact on user experience.
-- 🎨 **Modern Terminal UI:** Built with Python's `rich` library for an elegant, interactive CLI experience with animated progress bars.
+- 🔐 **Zero-Dependency Browser Runtime:** Encrypted web pages decompress and render automatically inside modern browsers using native `DecompressionStream`.
+- 🌐 **Instant URL Extractor:** Fetch complete HTML source code from any URL with a single command.
+- 📱 **Cross-Platform:** Optimized for **Termux (Android)**, **Linux**, and **Windows**.
+- 🎨 **Rich Terminal Interface:** High-contrast, interactive CLI with live progress bars powered by Python's `rich` library.
 
 ---
 
-## 🚀 Installation
+## 🚀 Quick Installation
 
-### On Termux / Linux / macOS:
+### On Termux / Linux:
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git -y
-git clone https://github.com/Don84848/Protection.git
-cd Protection
+git clone https://github.com/Don84848/WebEncryptor.git
+cd WebEncryptor
 pip install -r requirements.txt
 ```
 
-### On Windows:
-```powershell
-git clone https://github.com/Don84848/Protection.git
-cd Protection
+### On Windows / macOS:
+```bash
+git clone https://github.com/Don84848/WebEncryptor.git
+cd WebEncryptor
 pip install -r requirements.txt
 ```
 
@@ -56,30 +55,21 @@ pip install -r requirements.txt
 
 ## 📖 Usage
 
-### 1. Extract Website Source Code:
-```bash
-python extract.py
-```
-Enter the target URL when prompted. The extracted source will be saved as `[domain]_source.html`.
-
-### 2. Protect / Obfuscate HTML Files:
+### 1. Obfuscate / Encrypt HTML Files:
 ```bash
 python protect.py
 ```
-Select the file ID to obfuscate. The protected output will be saved as `protected_[filename].html`.
+Select the file ID to encrypt. The protected output is saved as `protected_[filename].html`.
 
----
-
-## ⚠️ Disclaimer
-
-This tool is designed for front-end code obfuscation and educational purposes. While it prevents casual inspection and direct "View Page Source" copying, experienced reverse engineers can inspect runtime DOM elements. Do not place private API keys or sensitive backend credentials in client-side code.
+### 2. Extract Webpage Source Code:
+```bash
+python extract.py
+```
+Enter the target URL when prompted. The extracted source is saved as `[domain]_source.html`.
 
 ---
 
 <div align="center">
   <b>Developed by <a href="https://t.me/lapsusdev">AD (@lapsusdev)</a></b><br>
-  <sub>⭐ If you find this toolkit helpful, feel free to drop a star on the repo! ⭐</sub>
+  <sub>⭐ If you find WebEncryptor helpful, please drop a star on the repo! ⭐</sub>
 </div>
-
-<!-- Verified by AD Security Lab -->
-<!-- Environment: Termux, Linux, Windows -->
