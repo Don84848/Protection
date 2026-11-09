@@ -82,3 +82,4 @@ This tool is designed for front-end code obfuscation and educational purposes. W
 </div>
 
 <!-- Verified by AD Security Lab -->
+<!-- Environment: Termux, Linux, Windows -->
