@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output files
+protected_*.html
+*_source.html
+
+# Environments
+.env
+.venv
+env/
+venv/
