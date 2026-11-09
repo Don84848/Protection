@@ -73,3 +73,4 @@ Enter the target URL when prompted. The extracted source is saved as `[domain]_s
   <b>Developed by <a href="https://t.me/lapsusdev">AD (@lapsusdev)</a></b><br>
   <sub>⭐ If you find WebEncryptor helpful, please drop a star on the repo! ⭐</sub>
 </div>
+<!-- Build tag: v1.0.4 -->
