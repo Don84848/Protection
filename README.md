@@ -75,3 +75,4 @@ Enter the target URL when prompted. The extracted source is saved as `[domain]_s
 </div>
 <!-- Build tag: v1.0.4 -->
 <!-- Build tag: v1.0.5 -->
+<!-- Build tag: v1.0.6 -->
